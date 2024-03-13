@@ -3,3 +3,50 @@ body {
   height: 100%;
   margin: 0;
 }
+/* CSS for the header */
+header {
+  text-align: center; /* Align text in the center */
+}
+img {
+  display: inline-block; /* Set image to display as a block element */
+}
+/* CSS for styling navigation links */
+nav {
+  text-align: center; /* Align navigation links in the center */
+}
+/* CSS for the image caption */
+figcaption {
+  font-size: 14px; /* Set font size of the caption */
+  text-align: center; /* Center the caption */
+}
+/* CSS for the text blocks */
+#featured-property p {
+  width: 800px; /* Set the width of the paragraphs */
+  margin: 20px auto; /* Center the paragraphs and add some vertical margin */
+  text-align: center; /* Center the text within the paragraphs */
+}
+/* CSS for the #details section */
+#details div {
+  float: left; /* Float each div to the left */
+  margin-right: 20px; /* Add some right margin for spacing */
+}
+
+/* Clear floats */
+#details::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* CSS for the bottom section */
+#bottom-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+#bottom-section div {
+  width: 25%;
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
